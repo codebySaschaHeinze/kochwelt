@@ -8,7 +8,7 @@ function calculatePortion() {
     let newValue = inputValue * currentAmount; // Die Variable "newValue" ergibt sich aus der Multiplikation des Wertes aus der Inputbox und dem Wert aus der entsprechenden forSchleifen-Sammlung
     tdAmounts[i].innerHTML = newValue; // newValue wird ins html übergeben
   }
-  document.getElementById("portionValue").value = 1; // zum Schluss wird die Inputbox wieder auf 1 gesetzt
+  document.getElementById("portionValue").value = newValue; // Nach dem Klicken, zeigt die Inbox die aktuellen Portionen an
 }
 
 const ideas = [
